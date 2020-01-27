@@ -1,0 +1,62 @@
+.grow { 
+    transition: all 8s ease-in; 
+}
+.grow:hover { 
+    transform: scale(8.0) perspective(1px);
+}
+
+h2 {
+    font-size: 70px;
+    font-weight: 20;
+    margin-left: 20px;
+}
+
+p {
+    margin: 160px 500px 10px 500px;
+    font-size: 25px;
+    line-height: 34px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+	width: 100%;
+	height: 100vh;
+	color: #fff;
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab );
+	background-size: 400% 400%;
+	-webkit-animation: gradientBG 10s ease infinite;
+	        animation: gradientBG 10s ease infinite;
+}
+.container {
+	width: 100%;
+	position: absolute;
+	top: 35%;
+	text-align: center;
+}
+a {
+	text-decoration: none;
+	color: #212121;
+}
+@-webkit-keyframes gradientBG {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+@keyframes gradientBG {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
